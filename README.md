@@ -17,7 +17,9 @@ This provider is maintained internally by the Okta development team.
 # Running the project 
 
 ## Step1
-    setting the environment variable is the first step, the env variables need to be overwritten for each tenant you would like to change , an ideal way is to have create multiple activate.sh files for each tenant and set the env before the below steps are achieved 
+    
+setting the environment variable is the first step, the env variables need to be overwritten for each tenant you would like to change .
+An ideal way is to have create multiple activate.sh files for each tenant and set the env before the below steps are achieved 
     
 ```sh
 $ export OKTA_ORG_NAME=dev-60961954(example)
