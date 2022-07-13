@@ -1,0 +1,162 @@
+2022-07-13T17:34:07.413+0530 [INFO]  Terraform version: 1.2.4
+2022-07-13T17:34:07.413+0530 [INFO]  Go runtime version: go1.18.1
+2022-07-13T17:34:07.413+0530 [INFO]  CLI args: []string{"/usr/bin/terraform", "workspace", "select", "-no-color", "prod"}
+2022-07-13T17:34:07.414+0530 [INFO]  CLI command args: []string{"workspace", "select", "-no-color", "prod"}
+2022-07-13T17:34:07.494+0530 [INFO]  Terraform version: 1.2.4
+2022-07-13T17:34:07.494+0530 [INFO]  Go runtime version: go1.18.1
+2022-07-13T17:34:07.494+0530 [INFO]  CLI args: []string{"/usr/bin/terraform", "apply", "-no-color", "-auto-approve", "-input=false", "-lock=true", "-parallelism=10", "-refresh=true"}
+2022-07-13T17:34:07.495+0530 [INFO]  CLI command args: []string{"apply", "-no-color", "-auto-approve", "-input=false", "-lock=true", "-parallelism=10", "-refresh=true"}
+2022-07-13T17:34:07.544+0530 [INFO]  backend/local: starting Apply operation
+2022-07-13T17:34:07.545+0530 [INFO]  provider: configuring client automatic mTLS
+2022-07-13T17:34:07.568+0530 [INFO]  provider.terraform-provider-okta_v3.31.0: configuring server automatic mTLS: timestamp=2022-07-13T17:34:07.568+0530
+2022-07-13T17:34:07.612+0530 [INFO]  ReferenceTransformer: reference not found: "each.value"
+2022-07-13T17:34:07.612+0530 [INFO]  ReferenceTransformer: reference not found: "each.value"
+2022-07-13T17:34:07.612+0530 [INFO]  ReferenceTransformer: reference not found: "each.value"
+2022-07-13T17:34:07.612+0530 [INFO]  ReferenceTransformer: reference not found: "each.value"
+2022-07-13T17:34:07.612+0530 [INFO]  ReferenceTransformer: reference not found: "each.value"
+2022-07-13T17:34:07.612+0530 [INFO]  ReferenceTransformer: reference not found: "each.value"
+2022-07-13T17:34:07.613+0530 [INFO]  provider: configuring client automatic mTLS
+2022-07-13T17:34:07.636+0530 [INFO]  provider.terraform-provider-okta_v3.31.0: configuring server automatic mTLS: timestamp=2022-07-13T17:34:07.635+0530
+2022-07-13T17:34:07.680+0530 [INFO]  backend/local: apply calling Plan
+2022-07-13T17:34:07.680+0530 [INFO]  ReferenceTransformer: reference not found: "each.value"
+2022-07-13T17:34:07.681+0530 [INFO]  ReferenceTransformer: reference not found: "each.value"
+2022-07-13T17:34:07.681+0530 [INFO]  ReferenceTransformer: reference not found: "each.value"
+2022-07-13T17:34:07.681+0530 [INFO]  ReferenceTransformer: reference not found: "each.value"
+2022-07-13T17:34:07.681+0530 [INFO]  ReferenceTransformer: reference not found: "each.value"
+2022-07-13T17:34:07.681+0530 [INFO]  ReferenceTransformer: reference not found: "each.value"
+2022-07-13T17:34:07.681+0530 [INFO]  provider: configuring client automatic mTLS
+2022-07-13T17:34:07.704+0530 [INFO]  provider.terraform-provider-okta_v3.31.0: configuring server automatic mTLS: timestamp=2022-07-13T17:34:07.704+0530
+2022-07-13T17:34:07.758+0530 [WARN]  ValidateProviderConfig from "provider[\"registry.terraform.io/okta/okta\"]" changed the config value, but that value is unused
+2022-07-13T17:34:07.759+0530 [INFO]  provider.terraform-provider-okta_v3.31.0: 2022/07/13 17:34:07 [INFO] Initializing Okta client: timestamp=2022-07-13T17:34:07.759+0530
+2022-07-13T17:34:08.781+0530 [INFO]  ReferenceTransformer: reference not found: "local.users"
+2022-07-13T17:34:08.781+0530 [INFO]  ReferenceTransformer: reference not found: "each.value"
+2022-07-13T17:34:08.781+0530 [INFO]  ReferenceTransformer: reference not found: "each.value"
+2022-07-13T17:34:08.781+0530 [INFO]  ReferenceTransformer: reference not found: "each.value"
+2022-07-13T17:34:08.781+0530 [INFO]  ReferenceTransformer: reference not found: "each.value"
+2022-07-13T17:34:08.781+0530 [INFO]  ReferenceTransformer: reference not found: "local.users"
+2022-07-13T17:34:08.781+0530 [INFO]  ReferenceTransformer: reference not found: "each.value"
+2022-07-13T17:34:08.781+0530 [INFO]  ReferenceTransformer: reference not found: "each.value"
+2022-07-13T17:34:08.781+0530 [INFO]  ReferenceTransformer: reference not found: "each.value"
+2022-07-13T17:34:08.781+0530 [INFO]  ReferenceTransformer: reference not found: "each.value"
+2022-07-13T17:34:08.787+0530 [WARN]  Provider "registry.terraform.io/okta/okta" produced an invalid plan for okta_user.sprout_users["anand_kolli@oktaice.com"], but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .expire_password_on_create: planned value cty.False for a non-computed attribute
+      - .status: planned value cty.StringVal("ACTIVE") for a non-computed attribute
+2022-07-13T17:34:08.787+0530 [WARN]  Provider "registry.terraform.io/okta/okta" produced an invalid plan for okta_user.sprout_users["ajay_avanthsa@oktaice.com"], but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .expire_password_on_create: planned value cty.False for a non-computed attribute
+      - .status: planned value cty.StringVal("ACTIVE") for a non-computed attribute
+2022-07-13T17:34:08.788+0530 [INFO]  ReferenceTransformer: reference not found: "okta_user.sprout_users"
+2022-07-13T17:34:08.788+0530 [INFO]  ReferenceTransformer: reference not found: "local.groups"
+2022-07-13T17:34:08.788+0530 [INFO]  ReferenceTransformer: reference not found: "each.value"
+2022-07-13T17:34:08.788+0530 [INFO]  ReferenceTransformer: reference not found: "each.value"
+2022-07-13T17:34:08.788+0530 [INFO]  ReferenceTransformer: reference not found: "okta_user.sprout_users"
+2022-07-13T17:34:08.788+0530 [INFO]  ReferenceTransformer: reference not found: "local.groups"
+2022-07-13T17:34:08.788+0530 [INFO]  ReferenceTransformer: reference not found: "each.value"
+2022-07-13T17:34:08.788+0530 [INFO]  ReferenceTransformer: reference not found: "each.value"
+2022-07-13T17:34:08.789+0530 [WARN]  Provider "registry.terraform.io/okta/okta" produced an invalid plan for okta_group.sprout_groups["group_all_staff"], but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .skip_users: planned value cty.False for a non-computed attribute
+2022-07-13T17:34:08.789+0530 [WARN]  Provider "registry.terraform.io/okta/okta" produced an invalid plan for okta_group.sprout_groups["group_all_admin"], but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .skip_users: planned value cty.False for a non-computed attribute
+2022-07-13T17:34:08.789+0530 [INFO]  ReferenceTransformer: reference not found: "okta_group.sprout_groups"
+2022-07-13T17:34:08.790+0530 [INFO]  ReferenceTransformer: reference not found: "okta_group.sprout_groups"
+2022-07-13T17:34:08.790+0530 [INFO]  ReferenceTransformer: reference not found: "okta_user.sprout_users"
+2022-07-13T17:34:08.790+0530 [INFO]  ReferenceTransformer: reference not found: "okta_group.sprout_groups"
+2022-07-13T17:34:08.792+0530 [WARN]  Provider "registry.terraform.io/okta/okta" produced an invalid plan for okta_policy_signon.P101, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .groups_included: planned value cty.UnknownVal(cty.Set(cty.String)) does not match config value cty.SetVal([]cty.Value{cty.UnknownVal(cty.String)})
+2022-07-13T17:34:08.792+0530 [WARN]  Provider "registry.terraform.io/okta/okta" produced an invalid plan for okta_group_memberships.sprout_groups_all_staff_membership, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .track_all_users: planned value cty.False for a non-computed attribute
+      - .users: planned value cty.UnknownVal(cty.Set(cty.String)) does not match config value cty.SetVal([]cty.Value{cty.UnknownVal(cty.String), cty.UnknownVal(cty.String)})
+2022-07-13T17:34:09.065+0530 [WARN]  Provider "registry.terraform.io/okta/okta" produced an invalid plan for okta_group_rule.rule_0prrnzdllC5mY7bz01d6, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .group_assignments: planned value cty.UnknownVal(cty.Set(cty.String)) does not match config value cty.SetVal([]cty.Value{cty.UnknownVal(cty.String)})
+      - .status: planned value cty.StringVal("ACTIVE") for a non-computed attribute
+2022-07-13T17:34:09.068+0530 [INFO]  ReferenceTransformer: reference not found: "each.value"
+2022-07-13T17:34:09.068+0530 [INFO]  ReferenceTransformer: reference not found: "each.value"
+2022-07-13T17:34:09.068+0530 [INFO]  ReferenceTransformer: reference not found: "okta_user.sprout_users#destroy"
+2022-07-13T17:34:09.068+0530 [INFO]  ReferenceTransformer: reference not found: "okta_group.sprout_groups#destroy"
+2022-07-13T17:34:09.068+0530 [INFO]  ReferenceTransformer: reference not found: "each.value"
+2022-07-13T17:34:09.069+0530 [INFO]  ReferenceTransformer: reference not found: "each.value"
+2022-07-13T17:34:09.069+0530 [INFO]  ReferenceTransformer: reference not found: "each.value"
+2022-07-13T17:34:09.069+0530 [INFO]  ReferenceTransformer: reference not found: "each.value"
+2022-07-13T17:34:09.069+0530 [INFO]  ReferenceTransformer: reference not found: "each.value"
+2022-07-13T17:34:09.069+0530 [INFO]  ReferenceTransformer: reference not found: "each.value"
+2022-07-13T17:34:09.069+0530 [INFO]  ReferenceTransformer: reference not found: "okta_user.sprout_users#destroy"
+2022-07-13T17:34:09.069+0530 [INFO]  ReferenceTransformer: reference not found: "each.value"
+2022-07-13T17:34:09.069+0530 [INFO]  ReferenceTransformer: reference not found: "each.value"
+2022-07-13T17:34:09.069+0530 [INFO]  ReferenceTransformer: reference not found: "each.value"
+2022-07-13T17:34:09.069+0530 [INFO]  ReferenceTransformer: reference not found: "each.value"
+2022-07-13T17:34:09.069+0530 [INFO]  ReferenceTransformer: reference not found: "okta_user.sprout_users#destroy"
+2022-07-13T17:34:09.069+0530 [INFO]  ReferenceTransformer: reference not found: "okta_group.sprout_groups#destroy"
+2022-07-13T17:34:09.069+0530 [INFO]  ReferenceTransformer: reference not found: "okta_group.sprout_groups#destroy"
+2022-07-13T17:34:09.076+0530 [INFO]  backend/local: apply calling Apply
+2022-07-13T17:34:09.078+0530 [INFO]  ReferenceTransformer: reference not found: "each.value"
+2022-07-13T17:34:09.078+0530 [INFO]  ReferenceTransformer: reference not found: "each.value"
+2022-07-13T17:34:09.078+0530 [INFO]  ReferenceTransformer: reference not found: "okta_user.sprout_users#destroy"
+2022-07-13T17:34:09.078+0530 [INFO]  ReferenceTransformer: reference not found: "each.value"
+2022-07-13T17:34:09.078+0530 [INFO]  ReferenceTransformer: reference not found: "each.value"
+2022-07-13T17:34:09.078+0530 [INFO]  ReferenceTransformer: reference not found: "okta_user.sprout_users#destroy"
+2022-07-13T17:34:09.078+0530 [INFO]  ReferenceTransformer: reference not found: "okta_user.sprout_users#destroy"
+2022-07-13T17:34:09.078+0530 [INFO]  ReferenceTransformer: reference not found: "okta_group.sprout_groups#destroy"
+2022-07-13T17:34:09.079+0530 [INFO]  ReferenceTransformer: reference not found: "each.value"
+2022-07-13T17:34:09.079+0530 [INFO]  ReferenceTransformer: reference not found: "each.value"
+2022-07-13T17:34:09.079+0530 [INFO]  ReferenceTransformer: reference not found: "each.value"
+2022-07-13T17:34:09.079+0530 [INFO]  ReferenceTransformer: reference not found: "each.value"
+2022-07-13T17:34:09.079+0530 [INFO]  ReferenceTransformer: reference not found: "each.value"
+2022-07-13T17:34:09.079+0530 [INFO]  ReferenceTransformer: reference not found: "each.value"
+2022-07-13T17:34:09.079+0530 [INFO]  ReferenceTransformer: reference not found: "each.value"
+2022-07-13T17:34:09.079+0530 [INFO]  ReferenceTransformer: reference not found: "each.value"
+2022-07-13T17:34:09.079+0530 [INFO]  ReferenceTransformer: reference not found: "okta_group.sprout_groups#destroy"
+2022-07-13T17:34:09.079+0530 [INFO]  ReferenceTransformer: reference not found: "okta_group.sprout_groups#destroy"
+2022-07-13T17:34:09.080+0530 [INFO]  provider: configuring client automatic mTLS
+2022-07-13T17:34:09.104+0530 [INFO]  provider.terraform-provider-okta_v3.31.0: configuring server automatic mTLS: timestamp=2022-07-13T17:34:09.104+0530
+2022-07-13T17:34:09.172+0530 [WARN]  ValidateProviderConfig from "provider[\"registry.terraform.io/okta/okta\"]" changed the config value, but that value is unused
+2022-07-13T17:34:09.174+0530 [INFO]  provider.terraform-provider-okta_v3.31.0: 2022/07/13 17:34:09 [INFO] Initializing Okta client: timestamp=2022-07-13T17:34:09.174+0530
+2022-07-13T17:34:10.185+0530 [WARN]  Provider "registry.terraform.io/okta/okta" produced an invalid plan for okta_user.sprout_users["anand_kolli@oktaice.com"], but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .status: planned value cty.StringVal("ACTIVE") for a non-computed attribute
+      - .expire_password_on_create: planned value cty.False for a non-computed attribute
+2022-07-13T17:34:10.185+0530 [INFO]  Starting apply for okta_user.sprout_users["anand_kolli@oktaice.com"]
+2022-07-13T17:34:10.185+0530 [WARN]  Provider "registry.terraform.io/okta/okta" produced an invalid plan for okta_user.sprout_users["ajay_avanthsa@oktaice.com"], but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .expire_password_on_create: planned value cty.False for a non-computed attribute
+      - .status: planned value cty.StringVal("ACTIVE") for a non-computed attribute
+2022-07-13T17:34:10.186+0530 [INFO]  Starting apply for okta_user.sprout_users["ajay_avanthsa@oktaice.com"]
+2022-07-13T17:34:11.618+0530 [WARN]  Provider "provider[\"registry.terraform.io/okta/okta\"]" produced an unexpected new value for okta_user.sprout_users["ajay_avanthsa@oktaice.com"], but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .status: was cty.StringVal("ACTIVE"), but now cty.StringVal("PROVISIONED")
+      - .custom_profile_attributes: was null, but now cty.StringVal("{}")
+2022-07-13T17:34:11.714+0530 [WARN]  Provider "provider[\"registry.terraform.io/okta/okta\"]" produced an unexpected new value for okta_user.sprout_users["anand_kolli@oktaice.com"], but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .status: was cty.StringVal("ACTIVE"), but now cty.StringVal("PROVISIONED")
+      - .custom_profile_attributes: was null, but now cty.StringVal("{}")
+2022-07-13T17:34:11.724+0530 [WARN]  Provider "registry.terraform.io/okta/okta" produced an invalid plan for okta_group.sprout_groups["group_all_staff"], but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .skip_users: planned value cty.False for a non-computed attribute
+2022-07-13T17:34:11.724+0530 [WARN]  Provider "registry.terraform.io/okta/okta" produced an invalid plan for okta_group.sprout_groups["group_all_admin"], but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .skip_users: planned value cty.False for a non-computed attribute
+2022-07-13T17:34:11.724+0530 [INFO]  Starting apply for okta_group.sprout_groups["group_all_staff"]
+2022-07-13T17:34:11.724+0530 [INFO]  Starting apply for okta_group.sprout_groups["group_all_admin"]
+2022-07-13T17:34:12.542+0530 [WARN]  Provider "provider[\"registry.terraform.io/okta/okta\"]" produced an unexpected new value for okta_group.sprout_groups["group_all_staff"], but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .custom_profile_attributes: was null, but now cty.StringVal("{}")
+2022-07-13T17:34:12.548+0530 [WARN]  Provider "provider[\"registry.terraform.io/okta/okta\"]" produced an unexpected new value for okta_group.sprout_groups["group_all_admin"], but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .custom_profile_attributes: was null, but now cty.StringVal("{}")
+2022-07-13T17:34:12.562+0530 [INFO]  Starting apply for okta_policy_signon.P101
+2022-07-13T17:34:12.564+0530 [WARN]  Provider "registry.terraform.io/okta/okta" produced an invalid plan for okta_group_memberships.sprout_groups_all_staff_membership, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .track_all_users: planned value cty.False for a non-computed attribute
+2022-07-13T17:34:12.564+0530 [INFO]  Starting apply for okta_group_memberships.sprout_groups_all_staff_membership
+2022-07-13T17:34:12.836+0530 [WARN]  Provider "registry.terraform.io/okta/okta" produced an invalid plan for okta_group_rule.rule_0prrnzdllC5mY7bz01d6, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .status: planned value cty.StringVal("ACTIVE") for a non-computed attribute
+2022-07-13T17:34:12.836+0530 [INFO]  Starting apply for okta_group_rule.rule_0prrnzdllC5mY7bz01d6
+2022-07-13T17:34:13.445+0530 [WARN]  Provider "provider[\"registry.terraform.io/okta/okta\"]" produced an unexpected new value for okta_policy_signon.P101, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .priority: was null, but now cty.NumberIntVal(1)
